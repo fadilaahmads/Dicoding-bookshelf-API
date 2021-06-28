@@ -1,5 +1,4 @@
 const { nanoid } = require('nanoid');
-const notes = require('../../notes-app-back-end/src/notes');
 const books = require('./books');
 
 const addBookHandler = (request, h) => {
